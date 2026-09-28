@@ -1,211 +1,356 @@
 <!DOCTYPE html>
-
 <html lang="en">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Jusoor Child Safety Standards</title>
-
+<meta name="description" content="Jusoor Child Safety Standards: Jusoor's prohibition of Child Sexual Abuse and Exploitation (CSAE), CSAM, grooming and sexual exploitation of children, how to report a concern, and how reports are handled.">
+<meta name="robots" content="index, follow">
+<title>Jusoor Child Safety Standards (CSAE &amp; CSAM Prohibition) — Jusoor Google Play App</title>
 <style>
-body {
-    font-family: Arial, sans-serif;
-    line-height: 1.6;
-    max-width: 900px;
-    margin: 0 auto;
-    padding: 40px 20px;
-    color: #222;
-    background: #fff;
-}
-
-h1, h2 {
-    color: #147d72;
-}
-
-h1 {
-    margin-bottom: 8px;
-}
-
-h2 {
-    margin-top: 32px;
-}
-
-.updated {
-    color: #666;
-    margin-bottom: 30px;
-}
-
-.contact {
-    background: #f3f8f7;
-    border-left: 4px solid #147d72;
-    padding: 16px 20px;
-    margin: 20px 0;
-}
-
-li {
-    margin-bottom: 8px;
-}
-
-a {
-    color: #147d72;
-}
+    :root {
+        --teal: #147d72;
+        --teal-dark: #0c4f47;
+        --ink: #1c1c1c;
+        --muted: #5a5a5a;
+        --line: #d7e4e1;
+        --bg: #ffffff;
+    }
+    * { box-sizing: border-box; }
+    body {
+        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Arial, sans-serif;
+        line-height: 1.65;
+        max-width: 900px;
+        margin: 0 auto;
+        padding: 32px 18px 64px;
+        color: var(--ink);
+        background: var(--bg);
+        -webkit-text-size-adjust: 100%;
+    }
+    header.app {
+        border: 1px solid var(--line);
+        border-top: 5px solid var(--teal);
+        border-radius: 10px;
+        padding: 20px 22px;
+        margin-bottom: 30px;
+        background: #fbfdfd;
+    }
+    .brand { display: flex; align-items: center; gap: 12px; flex-wrap: wrap; }
+    .brand-mark {
+        width: 46px; height: 46px; border-radius: 10px; background: var(--teal); color: #fff;
+        display: flex; align-items: center; justify-content: center; font-weight: 700; font-size: 20px;
+        flex: 0 0 auto;
+    }
+    .brand-name { font-size: 1.32rem; font-weight: 700; color: var(--teal); margin: 0; }
+    .brand-sub { margin: 2px 0 0; font-size: 0.9rem; color: var(--muted); }
+    h1, h2 { color: var(--teal); }
+    h1 { margin: 0 0 10px; font-size: 1.65rem; }
+    h2 { margin-top: 36px; font-size: 1.18rem; }
+    h3 { color: var(--teal-dark); margin: 22px 0 6px; font-size: 1rem; }
+    p { margin: 12px 0; }
+    .updated { color: var(--muted); font-size: 0.9rem; }
+    .contact {
+        background: #f3f8f7;
+        border-left: 4px solid var(--teal);
+        padding: 16px 20px;
+        margin: 20px 0;
+        border-radius: 6px;
+    }
+    .contact strong { color: var(--teal-dark); }
+    .warn { background: #fff8e1; border-left-color: #B71C1C; }
+    .ident { width: 100%; border-collapse: collapse; margin: 14px 0 4px; }
+    .ident th, .ident td { text-align: left; padding: 9px 10px; border-bottom: 1px solid var(--line); font-size: 0.94rem; vertical-align: top; }
+    .ident th { width: 36%; color: var(--teal-dark); font-weight: 600; }
+    li { margin-bottom: 9px; }
+    ul, ol { padding-left: 22px; }
+    a { color: var(--teal); }
+    code { background: #eef3f2; padding: 1px 6px; border-radius: 4px; font-size: 0.9em; word-break: break-word; }
+    .btn {
+        display: inline-block; background: var(--teal); color: #fff !important;
+        padding: 11px 20px; border-radius: 8px; text-decoration: none; font-weight: 600;
+        margin: 6px 8px 6px 0;
+    }
+    .btn.alt { background: #fff; color: var(--teal) !important; border: 1px solid var(--teal); }
+    footer { margin-top: 46px; color: var(--muted); font-size: 0.9rem; border-top: 1px solid var(--line); padding-top: 18px; }
+    @media (max-width: 600px) {
+        body { padding: 16px 12px 48px; }
+        h1 { font-size: 1.35rem; }
+        h2 { font-size: 1.08rem; }
+        .ident th, .ident td { display: block; width: auto; border-bottom: none; padding: 2px 0; }
+        .ident th { padding-top: 10px; }
+        .ident tr { display: block; border-bottom: 1px solid var(--line); }
+        .btn { display: block; text-align: center; }
+    }
 </style>
-
 </head>
-
 <body>
+
+<header class="app">
+    <div class="brand">
+        <div class="brand-mark" aria-hidden="true">J</div>
+        <div>
+            <p class="brand-name">Jusoor</p>
+            <p class="brand-sub">Child Safety Standards for the Jusoor<strong>&reg;</strong> app</p>
+        </div>
+    </div>
+</header>
 
 <h1>Jusoor Child Safety Standards</h1>
 
 <p class="updated">
-<strong>Effective Date:</strong> September 27, 2026
+<strong>Effective Date:</strong> September 28, 2026 &nbsp;&middot;&nbsp;
+<strong>Last Updated:</strong> September 28, 2026
 </p>
 
 <p>
-Jusoor is committed to protecting children and maintaining a safe environment
-for all members of the Jusoor community.
+These Child Safety Standards apply to <strong>Jusoor</strong>, the mobile application published on Google Play by
+<strong>KC Arab Community</strong> (Android package <code>com.kcarabcommunity.app</code>). Jusoor is committed to
+protecting children and maintaining a safe environment for all members of the Jusoor community. These standards describe
+what is prohibited, how to report a child-safety concern, and how Jusoor handles such reports.
 </p>
 
-<h2>1. Zero Tolerance for Child Sexual Abuse and Exploitation</h2>
+<h2>1. Zero Tolerance for Child Sexual Abuse and Exploitation (CSAE)</h2>
 
 <p>
-Jusoor strictly prohibits <strong>Child Sexual Abuse and Exploitation
-(CSAE)</strong> and any content, activity, or behavior that sexually exploits,
-abuses, or endangers children.
+Jusoor strictly prohibits <strong>Child Sexual Abuse and Exploitation (CSAE)</strong> and any content, activity, or
+behavior that sexually exploits, abuses, or endangers children. There is no exception to this rule, regardless of
+consent claimed, age of the participants, or intent.
 </p>
 
 <p>Jusoor does not allow:</p>
 
 <ul>
-<li>Child sexual abuse or exploitation of any kind.</li>
+    <li><strong>Child sexual abuse or exploitation (CSAE)</strong> of any kind.</li>
 
-<li>
-Child sexual abuse material (CSAM), including the creation, upload,
-sharing, distribution, solicitation, or promotion of such material.
-</li>
+    <li>
+        <strong>Child Sexual Abuse Material (CSAM)</strong>, including the creation, generating, uploading, hosting,
+        storing, sharing, distributing, publishing, linking, soliciting, or promotion of any child sexual abuse material.
+    </li>
 
-<li>
-Sexualization of children or minors.
-</li>
+    <li><strong>Sexual exploitation of children</strong>, including sexual abuse, sexual assault, and any sexual act
+        involving a child or minor.</li>
 
-<li>
-Sexual grooming or attempts to establish sexual contact with a child.
-</li>
+    <li><strong>Sexualization of children or minors</strong>, including age-inappropriate, suggestive, or explicit content
+        that sexualizes a child, and any attempt to make a child appear or be presented as sexually available.</li>
 
-<li>
-Sexual exploitation, trafficking, or solicitation of children.
-</li>
+    <li><strong>Sexual grooming</strong>, including attempts to build trust, secrecy, or emotional dependency with a child
+        in order to commit sexual abuse or exploitation, or any attempt to establish sexual contact with a child.</li>
 
-<li>
-Using Jusoor to facilitate, arrange, promote, or encourage sexual abuse
-or exploitation of children.
-</li>
+    <li><strong>Sexual solicitation of minors</strong>, including soliciting, encouraging, or enticing a child to engage in
+        sexual activity or to meet for the purpose of sexual activity.</li>
 
-<li>
-Requests for, offers of, or attempts to obtain sexual content involving
-children.
-</li>
+    <li><strong>Child trafficking or child exploitation</strong>, including trafficking, recruitment, enticement,
+        harboring, or exploitation of children for sexual or other abusive purposes.</li>
 
-<li>
-Any other conduct that violates applicable child-safety or child-protection
-laws.
-</li>
+    <li><strong>Requests for, offers of, or attempts to obtain sexual content involving children</strong>, including
+        requests to send, receive, upload, or view any sexual content involving a child or minor.</li>
+
+    <li><strong>Using Jusoor to facilitate, arrange, promote, encourage, or assist child sexual abuse or exploitation</strong>,
+        including using any Jusoor profile, message, post, listing, or account to make contact for these purposes.</li>
+
+    <li>Any other conduct that violates applicable <strong>child-safety laws</strong>, including any other conduct that is
+        illegal under the child-protection, anti-trafficking, exploitation, or mandatory-reporting laws that apply to the
+        user or to Jusoor.</li>
 </ul>
 
 <p>
-These standards apply to all users, content, communications, profiles,
-and activities associated with <strong>Jusoor</strong>.
+These standards apply to all users, content, communications, profiles, and activities associated with
+<strong>Jusoor</strong>, including content shared through Jusoor's community, forum, marketplace, jobs, events,
+business, reviews, and messaging features.
 </p>
 
-<h2>2. Reporting Child-Safety Concerns</h2>
+<h2>2. Reporting a Child-Safety Concern</h2>
 
 <p>
-Anyone who becomes aware of suspected child sexual abuse, exploitation,
-CSAM, grooming, or another serious child-safety concern involving Jusoor
-should report it immediately.
+Anyone who becomes aware of suspected <strong>CSAE</strong>, <strong>CSAM</strong>, grooming, sexual exploitation of a
+child, or any other serious child-safety concern involving Jusoor should report it immediately. You do not need to be
+certain before reporting &mdash; suspected violations should be reported, and Jusoor will assess them.
 </p>
 
+<h3>2.1 Designated child-safety contact</h3>
+
 <div class="contact">
-<strong>Jusoor Child Safety Team</strong><br>
+<strong>Jusoor Child Safety Team (designated child-safety contact)</strong><br>
 Email:
-<a href="mailto:gis1948@gmail.com">gis1948@gmail.com</a>
+<a href="mailto:gis1948@gmail.com?subject=Jusoor%20Child%20Safety%20Concern">gis1948@gmail.com</a><br>
+<span class="updated">Please use the subject line: "Jusoor Child Safety Concern".</span>
 </div>
 
 <p>
-When reporting a concern, please provide as much relevant information as
-possible, including the username or profile involved, a description of the
-concern, and links or other identifying information when available.
+This is the designated contact for all child-safety matters, including suspected <strong>CSAE</strong>,
+<strong>CSAM</strong>, grooming, exploitation, trafficking, or any other threat to the safety of children. Reports sent
+to this address are treated as child-safety reports and follow the handling procedure in Section 3.
+</p>
+
+<h3>2.2 What to include in a report</h3>
+
+<p>Please provide as much relevant information as you can, including:</p>
+
+<ul>
+    <li>The username, profile, or user ID involved (and the reporter's own username, if relevant).</li>
+    <li>A description of the concern and what you observed.</li>
+    <li>Links, post IDs, message excerpts, or screenshots, when available and safe to share.</li>
+    <li>Dates and times, if known, and the section of Jusoor where the content appeared.</li>
+</ul>
+
+<div class="contact warn">
+<p style="margin:0">
+<strong>Important &mdash; do not redistribute suspected CSAM.</strong> If your report concerns suspected CSAM, do
+<strong>not</strong> download, save, forward, share, or re-post the material, and do not send it to anyone else. Where
+possible, provide only identifying information (such as a username, profile link, or content ID) that lets the Jusoor
+Child Safety Team locate the reported material themselves.
+</p>
+</div>
+
+<h3>2.3 Reporting to the relevant authority</h3>
+
+<p>
+In addition to reporting to Jusoor, anyone who has concerns about a child &mdash; including concerns not involving Jusoor
+at all &mdash; should report those concerns to the appropriate child-protection authority in their jurisdiction. This
+includes contacting law enforcement or a national child-protection hotline where appropriate.
 </p>
 
 <p>
-Do not send or redistribute suspected CSAM. If possible, provide identifying
-information or a link that allows the Jusoor Child Safety Team to locate
-the reported material.
-</p>
-
-<h2>3. Action on Violations</h2>
-
-<p>
-Jusoor may take appropriate action when it identifies or receives a report
-of activity that violates these Child Safety Standards.
-</p>
-
-<p>
-Depending on the circumstances and applicable law, actions may include:
+If you are in the <strong>United States</strong>, you can report suspected child sexual abuse or exploitation to the
+<strong>National Center for Missing &amp; Exploited Children (NCMEC)</strong>. NCMEC operates the
+<strong>CyberTipline</strong>, which accepts reports of suspected child sexual abuse material and child sexual
+exploitation from the public:
 </p>
 
 <ul>
-<li>Removing prohibited content.</li>
-
-<li>Restricting, suspending, or terminating accounts.</li>
-
-<li>Blocking users from further interaction.</li>
-
-<li>
-Preserving relevant information when appropriate and legally permitted.
-</li>
-
-<li>
-Reporting suspected CSAM or child sexual exploitation to appropriate
-authorities or organizations when required or appropriate.
-</li>
+    <li>CyberTipline website: <a href="https://report.cybertip.org" rel="noopener noreferrer">https://report.cybertip.org</a></li>
+    <li>CyberTipline phone: <strong>1-800-843-5678</strong> (U.S. and Canada)</li>
 </ul>
 
 <p>
-Jusoor may cooperate with law enforcement and relevant child-protection
-organizations in accordance with applicable law.
+Users outside the United States should report to the child-protection authority, national hotline, or law-enforcement
+agency in their own country, in addition to (or instead of) reporting to Jusoor. Jusoor also reports or cooperates in
+reporting to NCMEC and to other relevant national authorities where applicable law requires it or where it is otherwise
+appropriate.
 </p>
 
-<h2>4. Child Safety Contact</h2>
+<h2>3. How Jusoor Handles Child-Safety Reports</h2>
 
-<div class="contact">
-<strong>Jusoor Child Safety Team</strong><br>
-Email:
-<a href="mailto:gis1948@gmail.com">gis1948@gmail.com</a>
-</div>
+<p>When the Jusoor Child Safety Team receives a report, it is handled as follows:</p>
+
+<ol>
+    <li><strong>Acknowledgement.</strong> Reports are reviewed by the Child Safety Team. Where contact information is
+        available, the reporter is acknowledged.</li>
+
+    <li><strong>Triage and risk assessment.</strong> The report is assessed for severity and for whether it involves
+        CSAE, CSAM, grooming, exploitation, or another child-safety violation. Reports indicating an immediate risk to
+        a child's safety are treated as urgent and prioritized.</li>
+
+    <li><strong>Preservation of relevant evidence.</strong> Where appropriate and legally permitted, relevant content,
+        accounts, and records are preserved so the concern can be properly investigated and so that any required
+        reporting can be supported.</li>
+
+    <li><strong>Immediate action.</strong> Where a violation is apparent, Jusoor may remove the prohibited content and
+        restrict or suspend the involved account(s) promptly, without waiting for the reporting process to conclude.</li>
+
+    <li><strong>Investigation.</strong> Jusoor reviews the content, account history, and relevant context to determine
+        what occurred.</li>
+
+    <li><strong>Reporting to authorities.</strong> Where Jusoor becomes aware of suspected CSAM or child sexual
+        exploitation, Jusoor reports it to NCMEC (U.S.) or to the relevant national authority, and may cooperate with
+        law enforcement and child-protection organizations, in accordance with applicable law.</li>
+
+    <li><strong>Outcome.</strong> Jusoor determines the appropriate enforcement action under Section 4 and, where
+        required or appropriate, informs the reporter of the outcome.</li>
+</ol>
 
 <p>
-This contact is intended for child-safety matters, including suspected
-CSAE, CSAM, grooming, exploitation, or other threats to the safety of
-children.
+Jusoor may withhold confirmation or details where doing so would compromise a child-safety investigation, a user’s
+privacy, or legal obligations.
 </p>
 
-<h2>5. Compliance</h2>
-
-<p>
-These Child Safety Standards are part of the rules governing use of
-<strong>Jusoor</strong>. Jusoor may update these standards when necessary
-to address changes in applicable law, platform requirements, or
-child-safety practices.
-</p>
+<h2>4. Enforcement Actions</h2>
 
 <p>
-Jusoor is committed to maintaining a safe community and to preventing the
-use of its services for Child Sexual Abuse and Exploitation.
+Jusoor may take appropriate action when it identifies or receives a report of activity that violates these Child Safety
+Standards. Jusoor does not require a formal warning before acting, and violations may result in immediate action.
 </p>
 
-<p class="updated">
-<strong>Last Updated:</strong> September 27, 2026
+<p>Depending on the circumstances and applicable law, actions may include:</p>
+
+<ul>
+    <li><strong>Removing prohibited content</strong> from Jusoor.</li>
+
+    <li><strong>Restricting, suspending, or terminating accounts</strong> that violate these standards, permanently where
+        the violation is severe.</li>
+
+    <li><strong>Blocking users</strong> from further interaction with the reporting user or with Jusoor.</li>
+
+    <li><strong>Preserving relevant information</strong> when appropriate and legally permitted, including for the purpose
+        of reporting to authorities.</li>
+
+    <li><strong>Reporting suspected CSAM or child sexual exploitation</strong> to NCMEC, law enforcement, or other
+        appropriate authorities and child-protection organizations, when required or appropriate.</li>
+
+    <li><strong>Notifying affected parties</strong> or taking other steps to protect children and other users from
+        further contact.</li>
+</ul>
+
+<p>
+<strong>Child sexual abuse and exploitation violations are not eligible for reinstatement</strong> except where required
+by law, and repeated or severe violations may result in permanent removal of the account and retention of only the
+limited records permitted by Section 5.
 </p>
+
+<p>
+Jusoor may cooperate with law enforcement and relevant child-protection organizations in accordance with applicable law.
+Where reporting to authorities is legally required, Jusoor’s commitment to user privacy does not prevent it.
+</p>
+
+<h2>5. Data Retention for Child-Safety and Abuse Records</h2>
+
+<p>
+Where Jusoor preserves information in connection with a child-safety report, it does so only for the limited purposes
+of protecting children, investigating the reported conduct, enforcing these standards, and meeting legal obligations.
+Such records are retained in a restricted form, are not used to provide Jusoor’s features to the person reported, and
+are deleted when the applicable legal requirement or legitimate purpose ends.
+</p>
+
+<h2>6. Compliance with Applicable Child-Safety Laws</h2>
+
+<p>
+Jusoor complies with applicable child-safety and child-protection laws, including mandatory-reporting obligations that
+apply to it, and cooperates with law enforcement and child-protection authorities as required by law. Where a legal
+obligation requires Jusoor to preserve or disclose information connected to a child-safety matter, Jusoor will do so.
+</p>
+
+<p>
+These Child Safety Standards are part of the rules governing use of <strong>Jusoor</strong>. Using Jusoor means agreeing
+to these standards. Jusoor may update these standards when necessary to address changes in applicable law, Google Play
+policy or platform requirements, or child-safety practices.
+</p>
+
+<h2>7. Application &amp; Developer Identification</h2>
+
+<table class="ident">
+    <tbody>
+    <tr><th scope="row">Application name</th><td><strong>Jusoor</strong> (Google Play listing name)</td></tr>
+    <tr><th scope="row">Android package name</th><td><code>com.kcarabcommunity.app</code></td></tr>
+    <tr><th scope="row">Developer / publisher</th><td><strong>KC Arab Community</strong></td></tr>
+    <tr><th scope="row">Platform</th><td>Android (Google Play)</td></tr>
+    <tr><th scope="row">Child-safety contact</th><td><a href="mailto:gis1948@gmail.com">gis1948@gmail.com</a></td></tr>
+    <tr><th scope="row">General support contact</th><td><a href="mailto:ghdatabyah@gmail.com">ghdatabyah@gmail.com</a></td></tr>
+    </tbody>
+</table>
+
+<h2>8. Related Jusoor Policies</h2>
+
+<p>
+    <a class="btn" href="https://kcarabcommunity.web.app/privacy-policy.html">Jusoor Privacy Policy</a>
+    <a class="btn alt" href="https://kcarabcommunity.web.app/delete-account.html">Delete your Jusoor account</a>
+    <a class="btn alt" href="https://kcarabcommunity.web.app/">Jusoor policy home</a>
+</p>
+
+<footer>
+<p><strong>Jusoor</strong> Child Safety Standards &middot; published by KC Arab Community &middot;
+Application ID <code>com.kcarabcommunity.app</code></p>
+<p class="updated"><strong>Effective Date:</strong> September 28, 2026 &nbsp;&middot;&nbsp;
+<strong>Last Updated:</strong> September 28, 2026</p>
+</footer>
 
 </body>
 </html>
