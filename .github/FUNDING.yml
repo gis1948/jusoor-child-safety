@@ -1,3 +1,4 @@
-# The owner-s support page. GitHub renders this as a Sponsor button on every
-# repository that carries this file; payments go through PayPal, not GitHub.
+# Where support goes: the owner's PayPal page. GitHub reads this file to decide
+# whether to offer a Sponsor button on the repository. Enrolling in GitHub
+# Sponsors itself is separate (payouts, tax form) and links contact via GitHub.
 custom: ["https://paypal.me/Jusoor1948"]
